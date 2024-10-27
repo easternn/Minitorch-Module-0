@@ -5,6 +5,14 @@ from typing import List, Tuple
 
 
 def make_pts(N):
+    """Forms random 2D set of points
+
+    Keyword arguments:
+        N - Number of points
+
+    Return:
+        Sequence of points
+    """
     X = []
     for i in range(N):
         x_1 = random.random()
@@ -21,6 +29,7 @@ class Graph:
 
 
 def simple(N):
+    """Forms 2 cluster of 2D points divided by vertical line."""
     X = make_pts(N)
     y = []
     for x_1, x_2 in X:
@@ -30,6 +39,7 @@ def simple(N):
 
 
 def diag(N):
+    """Forms 2 cluster of 2D points divided by diagonal line."""
     X = make_pts(N)
     y = []
     for x_1, x_2 in X:
@@ -39,6 +49,7 @@ def diag(N):
 
 
 def split(N):
+    """Forms 2 cluster of 2D points divided by two vertical lines."""
     X = make_pts(N)
     y = []
     for x_1, x_2 in X:
@@ -48,6 +59,7 @@ def split(N):
 
 
 def xor(N):
+    """Forms 2 cluster of 2D points arranged in a staggered order."""
     X = make_pts(N)
     y = []
     for x_1, x_2 in X:
@@ -57,6 +69,7 @@ def xor(N):
 
 
 def circle(N):
+    """Forms 2 cluster of 2D points divided by a circle."""
     X = make_pts(N)
     y = []
     for x_1, x_2 in X:
@@ -67,7 +80,7 @@ def circle(N):
 
 
 def spiral(N):
-
+    """Forms 2 cluster of 2D points which form spirals."""
     def x(t):
         return t * math.cos(t) / 20.0
 
