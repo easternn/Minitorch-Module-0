@@ -7,6 +7,7 @@
 * Overview: https://minitorch.github.io/module0/module0/
 
 # Visualization task image 1 - split of points
-<img src="https://github.com/easternn/Minitorch-Module-0/blob/master/split_image.png" width="50%">
+<img src="https://github.com/easternn/Minitorch-Module-0/blob/master/split_image.png" width="70%">
 
 # Visualization task image 2 - model parameters
+<img src="https://github.com/easternn/Minitorch-Module-0/blob/master/model_params.png" width="70%">
