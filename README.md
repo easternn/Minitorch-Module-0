@@ -5,3 +5,8 @@
 * Docs: https://minitorch.github.io/
 
 * Overview: https://minitorch.github.io/module0/module0/
+
+# Visualization task image 1 - split of points
+<img src="https://minitorch.github.io/minitorch.svg" width="50%">
+
+# Visualization task image 2 - model parameters
